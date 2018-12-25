@@ -1,0 +1,351 @@
+/*banner部分*/
+.banner {
+	width: 100%;
+	height: 460px;
+	overflow: hidden;
+	background: url(../images/bannerdz01.png) top center;
+}
+.banner .inner {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.banner .inner .content {
+	position: absolute;
+	top: 64px;
+	left: 542px;
+	width: 458px;
+}
+.banner .inner .content .head {
+	overflow: hidden;
+	height: 66px;
+}
+.banner .inner .content .head img{
+    float: left;
+}
+.banner .inner .content .head .poker {
+	float: left;
+	width: 160px;
+	padding-left: 13px;
+}
+.banner .inner .content .head .poker h3 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.banner .inner .content .head .poker p {
+	padding-top: 2px;
+	font-size: 12px;
+	color: #fff;
+}
+.banner .inner .content .head .online {
+	float: right;    
+    padding-top: 10px;
+    width: 116px;
+    height: 37px;
+}
+.banner .inner .content .head .online a {
+	display: block;
+	height: 37px;
+    width: 99px;
+    background: url(../images/online.png) no-repeat;
+    line-height: 37px;
+    padding-left: 17px;
+}
+.banner .inner .content .intro {
+    padding-top: 28px;
+    font-size: 16px;
+    width: 437px;
+	padding-bottom: 16px;
+}
+.banner .inner .content h4 {
+	padding-left: 22px;
+	padding-bottom: 15px;
+	color: #FBC660;
+	font-size: 18px;
+	font-weight: bold;
+	background: url(../images/download.png) 3px -35px no-repeat;
+}
+.banner .inner .content .download {
+	overflow: hidden;
+	border-radius: 4px;
+	height: 107px;
+	width: 452px;
+	/*background: rgba(255, 255, 255, .5);*/
+}
+.banner .inner .content .download li {
+	float: left;
+	margin-right: 1px;
+	text-align: center;
+	background: rgba(255, 255, 255, .5);
+}
+.banner .inner .content .download li:hover {
+	background: rgba(255, 255, 255, .8);
+}
+.banner .inner .content .download li a {
+	color: #fff;
+	display: block;
+	width: 84px;
+	height: 31px;
+	padding-top: 76px;
+	background: url(../images/pad.png) no-repeat -212px -174px;
+}
+.banner .inner .content .download li:nth-child(2) a {
+	background-position: -221px 25px;
+}
+.banner .inner .content .download li:nth-child(3) a {
+	background-position: -220px -73px;
+}
+.banner .inner .content .download li:nth-child(4) a {
+	background-position: -216px -265px;
+}
+.banner .inner .content .download .erweima {
+	float: left;
+	width: 112px;
+	height: 108px;
+    background: url(../images/erweima.jpg) center center no-repeat rgba(255, 255, 255, .5);
+}
+.banner .inner .circles {
+	position: absolute;
+	left: 50%;
+	margin-left: -18px;
+	bottom: 20px;
+	width: 36px;
+	height: 12px;
+	/*background: red;*/
+}
+.banner .inner .circles ol {
+	overflow: hidden;
+}
+.banner .inner .circles ol li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-right: 12px;
+}
+.banner .inner .circles ol li:nth-child(2) {
+	margin-right: 0;
+}
+.banner .inner .circles ol li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #90D7FA;
+	border-radius: 50%;
+}
+.banner .inner .circles ol li.cur a{
+	background: #fff;
+}
+/*list部分*/
+.list {
+	margin-top: 49px;
+}
+.list .inner {
+	width: 1000px;
+    margin: 0 auto;
+}
+.list .inner ul {
+	overflow: hidden;
+	width: 100%;
+}
+.list .inner ul li {
+	float: left;
+	width: 218px;
+	height: 193px;
+	margin-right: 42px;
+}
+.list .inner ul li:last-child {
+	margin-right: 0;
+}
+.list .inner ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.list .inner ul li a img {
+	width: 218px;
+	height: 129px;
+}
+.list .inner ul li a .title {
+	font-size: 12px;
+	color: #444866;
+	text-align: center;
+	height: 33px;
+	line-height: 33px;
+}
+.list .inner ul li a .name {
+	font-size: 12px;
+	color: #38B774;
+	text-align: center;    
+}
+.list .inner ul li a .name span {
+	padding-left: 10px;
+	background: url(../images/arrow.png) no-repeat 6px 2px;
+}
+.list .inner .line {
+	width: 100%;
+	height: 38px;
+	border-bottom: 1px solid #B5C0CB;
+	position: relative;
+}
+.list .inner .line .circles {
+	width: 36px;
+	height: 12px;
+	padding: 0 16px;
+	position: absolute;
+	left: 50%;
+	margin-left: -34px;
+	bottom: -6px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.list .inner .line .circles li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin-right: 12px;
+}
+.list .inner .line .circles li:last-child {
+	margin-right: 0;
+}
+.list .inner .line .circles li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #B5C0CB;
+	border-radius: 50%;
+}
+.list .inner .line .circles li.cur a {
+	background: #2FBC71;
+}
+.main {
+    width: 100%;
+    margin-top: 52px;
+    background: url(../images/indexmainbg.jpg) center top;
+}
+.main .inner {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.main .inner .news {
+	float: left;
+	width: 500px;
+	height: 311px;
+	background: url(../images/bynewsbg.jpg) no-repeat;
+	padding-top: 49px;
+}
+.main .inner .news .more {
+	width: 65px;
+	height: 29px;	
+	border: 1px solid #2FBC71;
+	border-radius: 4px;
+	font-size: 12px;
+	line-height: 29px;
+	text-align: center;
+	color: #2FBC71;
+	margin-left: 217px;
+}
+.main .inner .news .more span {
+	position: relative;
+    left: 3px;
+    top: -3px;
+}
+.main .inner .news ul {
+	margin-top: 41px;
+	padding: 0 20px;
+}
+.main .inner .news ul li {
+	height: 46px;
+	border-bottom: 1px solid #DBE1E7;
+}
+.main .inner .news ul li a {
+	display: block;
+	height: 100%;
+	line-height: 46px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-right: 65px;
+	position: relative;
+	font-size: 12px;
+}
+.main .inner .news ul li a span {
+	position: absolute;
+	font-size: 12px;
+	right: 0;
+	top: 1px;
+	color: #CAC4D2;
+}
+.main .inner .jobs {
+	float: left;
+	width: 500px;
+	height: 311px;
+	background: url(../images/byhrbg3.jpg) no-repeat;
+	padding-top: 40px;
+}
+.main .inner .jobs .more {
+	width: 65px;
+	height: 29px;	
+	border: 1px solid #fff;
+	border-radius: 4px;
+	font-size: 12px;
+	line-height: 29px;
+	text-align: center;
+	color: #fff;
+	margin-left: 217px;
+}
+.main .inner .jobs .more span {
+	position: relative;
+    left: 3px;
+    top: -3px;
+}
+.main .inner .jobs h4 {
+	margin-top: 41px;
+	padding-left: 19px;
+	height: 24px;
+	line-height: 24px;
+	font-weight: bold;
+}
+.main .inner .jobs ul {
+	padding: 0 175px 0 19px;
+}
+.main .inner .jobs ul li {
+	height: 37px;
+	border-bottom: 1px solid #6FDEA3;
+}
+.main .inner .jobs ul li a {
+	display: block;
+    color: #fff;
+    height: 37px;
+    line-height: 37px;
+}
+.footer {
+	width: 100%;
+	height: 142px;
+	background: #191D3A;
+	color: #6C6E7E;
+	font-size: 13px;
+}
+.footer .inner {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 40px;
+}
+.footer .inner a {
+	display: block;
+	position: absolute;
+	right: -35px;
+	top: 22px;
+	width: 35px;
+	height: 50px;
+}
+.footer .inner a img {
+	width: 100%;
+	height: 100%;
+}
+.footer .inner p.map {
+    padding: 40px 0 0 3px;
+}
